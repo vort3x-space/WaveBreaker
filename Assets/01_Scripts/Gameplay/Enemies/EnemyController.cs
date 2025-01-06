@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour
     private Animator animator;        // Animator bileşeni
     private EnemyPool enemyPool;
 
-    private bool isDead = false;      // Düşmanın ölüp ölmediğini kontrol eder
+    public bool isDead = false;      // Düşmanın ölüp ölmediğini kontrol eder
     private bool isAttacking = false; // Saldırıda olup olmadığını kontrol eder
     public GameObject deathParticlePrefab; // Partikül prefab'i referansı
 

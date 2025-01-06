@@ -1393,10 +1393,22 @@ PrefabInstance:
       propertyPath: bulletPool
       value: 
       objectReference: {fileID: 890708339}
+    - target: {fileID: 493250603161111486, guid: 054ea2b0dd5456f45b160872856a3924, type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 542194849}
+    - target: {fileID: 493250603161111486, guid: 054ea2b0dd5456f45b160872856a3924, type: 3}
+      propertyPath: enemyLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 727622842051556574, guid: 054ea2b0dd5456f45b160872856a3924, type: 3}
       propertyPath: joystick
       value: 
       objectReference: {fileID: 835678699}
+    - target: {fileID: 727622842051556574, guid: 054ea2b0dd5456f45b160872856a3924, type: 3}
+      propertyPath: enemyLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 727622842051556579, guid: 054ea2b0dd5456f45b160872856a3924, type: 3}
       propertyPath: m_Name
       value: Hero
@@ -2435,7 +2447,7 @@ GameObject:
   - component: {fileID: 890708344}
   m_Layer: 0
   m_Name: ===== GM =====
-  m_TagString: EditorOnly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
